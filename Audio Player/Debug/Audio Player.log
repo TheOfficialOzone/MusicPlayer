@@ -1,0 +1,79 @@
+﻿  Audio Player.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(26,23): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\string(24): message : see declaration of 'std'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(26,1): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,18): error C2653: 'fs': is not a class or namespace name
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,22): error C3861: 'directory_iterator': identifier not found
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,40): error C2672: 'begin': no matching overloaded function found
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(1916): message : see declaration of 'std::begin'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : With the following template arguments:
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : '_Container=unknown-type'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\initializer_list(57): message : see declaration of 'std::begin'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,40): error C2672: 'end': no matching overloaded function found
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(1926): message : see declaration of 'std::end'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : With the following template arguments:
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : '_Container=unknown-type'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\initializer_list(63): message : see declaration of 'std::end'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,51): error C2100: illegal indirection
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(38,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(47,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(72,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(95,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(100,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(17,21): error C7525: inline variables require at least '/std:c++17'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(17,35): error C2864: 'MusicPlayer::paused': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(17,35): message : type is 'bool'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(18,20): error C7525: inline variables require at least '/std:c++17'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(18,30): error C2864: 'MusicPlayer::songOn': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(18,30): message : type is 'int'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(21,41): error C7525: inline variables require at least '/std:c++17'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(49,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Interactables\Interactables.h(12,10): fatal error C1083: Cannot open include file: 'SDL_image.h': No such file or directory
+  FontHelper.cpp
+  Globals.cpp
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Globals\Globals.cpp(11,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Interactables.cpp
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Interactables\Interactables.h(12,10): fatal error C1083: Cannot open include file: 'SDL_image.h': No such file or directory
+  MouseController.cpp
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\MouseController\MouseController.h(9,10): fatal error C1083: Cannot open include file: 'Globals/Globals.h': No such file or directory
+  MusicDisplayer.cpp
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicDisplayer\MusicDisplayer.h(10,10): fatal error C1083: Cannot open include file: 'Interactables/Interactables.h': No such file or directory
+  MusicLoader.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(26,23): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(24): message : see declaration of 'std'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(26,1): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,18): error C2653: 'fs': is not a class or namespace name
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,22): error C3861: 'directory_iterator': identifier not found
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,40): error C2672: 'begin': no matching overloaded function found
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(1916): message : see declaration of 'std::begin'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : With the following template arguments:
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : '_Container=unknown-type'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\initializer_list(57): message : see declaration of 'std::begin'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,40): error C2672: 'end': no matching overloaded function found
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(1926): message : see declaration of 'std::end'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : With the following template arguments:
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): message : '_Container=unknown-type'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\initializer_list(63): message : see declaration of 'std::end'
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,1): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(27,51): error C2100: illegal indirection
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(38,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(47,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(72,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(95,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicLoader\MusicLoader.h(100,21): warning C4018: '<': signed/unsigned mismatch
+  MusicPlayer.cpp
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Music\MusicPlayer\MusicPlayer.h(12,10): fatal error C1083: Cannot open include file: 'Music/MusicLoader/MusicLoader.h': No such file or directory
+  Generating Code...

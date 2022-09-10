@@ -1,0 +1,7 @@
+﻿  Audio Player.cpp
+C:\Users\Ozone\source\repos\Audio Player\Audio Player\Audio Player.cpp(54,37): warning C4305: 'argument': truncation from 'double' to 'float'
+  Display.cpp
+  Generating Code...
+  Audio Player.vcxproj -> C:\Users\Ozone\source\repos\Audio Player\x64\Debug\Audio Player.exe
+  Copies the DLLs to the end directory
+  0 File(s) copied
